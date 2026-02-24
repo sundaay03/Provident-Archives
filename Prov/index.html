@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OPDS</title>
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header dengan tombol kembali dan navigasi -->
+    <header>
+        <div class="container header-container">
+            <div class="header-left">
+                <button id="back-btn" class="back-btn">
+                    <a href="/main/index.html">
+                    <i class="fas fa-arrow-left"></i>
+                    </a>
+                </button>
+                <div class="logo">
+                    <i class="fas fa-sitemap"></i>
+                    <span>Prov Organization</span>
+                </div>
+            </div>
+            <nav class="header-nav">
+                <ul>
+                    <li><a href="#home" class="nav-link active"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="#structure" class="nav-link"><i class="fas fa-network-wired"></i> Structure</a></li>
+                    <li><a href="#about" class="nav-link"><i class="fas fa-info-circle"></i> About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Konten utama -->
+    <main class="container">
+        <!-- Halaman Home -->
+        <section id="home" class="page active-page">
+            <div class="hero">
+                <div class="hero-content">
+                    <h1>Provident</h1>
+                    <p class="hero-subtitle">Organization of Provident Generation</p>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">4</div>
+                            <div class="stat-label">Departments</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">23</div>
+                            <div class="stat-label">Members</div>
+                        </div>
+                    </div>
+                    <button id="view-structure-btn" class="btn-primary">
+                        <span>Visit Organization Structure</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+                <div class="hero-image">
+                    <img src="/image/provident.webp" alt="Student Organization of Darussalam">
+                </div>
+            </div>
+
+            <div class="features">
+                <div class="section-title">
+                    <h2>Vision & Mision</h2>
+                    <div class="title-line"></div>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <h3>Vision</h3>
+                        <p>Become a leading organization in creating a conducive environment for the holistic and sustainable development of its members’ potential.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-bullseye"></i>
+                        </div>
+                        <h3>Mision</h3>
+                        <p>1. Building a transparent and accountable organizational system.<br>
+                        2. Optimize the function of each department in achieving organizational goals.<br>
+                        3. Create synergy among departments to achieve work efficiency and effectiveness.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Halaman Struktur Organisasi -->
+        <section id="structure" class="page">
+            <!-- Chief of Organization -->
+            <div class="section-title">
+                <h2>Chief of Provident</h2>
+                <div class="title-line"></div>
+            </div>
+            <div class="chief-card">
+                <div class="card-img">
+                    <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Chief of Organization">
+                </div>
+                <div class="card-content">
+                    <h3>Alifian Hilmawan</h3>
+                    <h3>Dino Adriano</h3>
+                    <p class="position">Chief of Organization</p>
+                    <p class="description">To lead and coordinate all organizational departments, ensuring that all activities are carried out in accordance with the organization’s vision and mission.</p>
+                    
+                </div>
+            </div>
+
+            <!-- Sekretaris dan Bendahara -->
+            <div class="section-title" style="margin-top: 4rem;">
+                <h2>Leadership Team</h2>
+                <div class="title-line"></div>
+            </div>
+            <div class="two-column-container">
+                <!-- Sekretaris -->
+                <div class="card">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Secretary">
+                    </div>
+                    <div class="card-content">
+                        <h3>Peni Afriani</h3>
+                        <p class="position">Secretary</p>
+                        <p class="description">Responsible for organizational administration, meeting documentation, and both internal and external correspondence.</p>
+                    </div>
+                </div>
+
+                <!-- Bendahara -->
+                <div class="card">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Treasurer">
+                    </div>
+                    <div class="card-content">
+                        <h3>Listiani</h3>
+                        <p class="position">Treasurer</p>
+                        <p class="description">To manage the organization’s finances, prepare financial reports, and ensure transparency in the use of organizational funds.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Department -->
+            <div class="section-title" style="margin-top: 4rem;">
+                <h2>Departments of Provident</h2>
+                <div class="title-line"></div>
+            </div>
+            <div class="two-column-container">
+                <div class="departments-container">
+                    <!-- Event Organizer -->
+                    <div class="department-card">
+                        <div class="card-img">
+                            <img src="https://images.unsplash.com/photo-1586511925558-a4c6376fe65f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Security Department">
+                        </div>
+                        <div class="card-content">
+                            <h3>Event Organizer</h3>
+                            <p class="description">Responsible for the security and order of the organization's environment.</p>
+                            <div class="contact-info">
+                                <p>Muhamad firdaus <br>
+                                Sandi Riandi <br>
+                                Alia Tamara Putri <br>
+                                Mega Andini Putri <br>
+                                Santi</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Decorator -->
+                    <div class="department-card">
+                        <div class="card-img">
+                            <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Worship Department">
+                        </div>
+                        <div class="card-content">
+                            <h3>Decorator</h3>
+                            <p class="description">Coordinate worship and religious activities, and facilitate the spiritual needs of the organization's members.</p>
+                            <div class="contact-info">
+                                <p>Ahmad Jaelani <br>
+                                Asep Saepul Rohman <br>
+                                Hasanudin <br>
+                                Pajri Muthoriq <br>
+                                Ananda Putri Wijaya <br>
+                                Mirnawati <br>
+                                Silfa Rofita Cahyani</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Multimedia -->
+                    <div class="department-card">
+                        <div class="card-img">
+                            <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Education Department">
+                        </div>
+                        <div class="card-content">
+                            <h3>Multimedia</h3>
+                            <p class="description">Organize teaching and learning activities, as well as other educational activities.</p>
+                            <div class="contact-info">
+                                <p>Asep Saepul Rohman <br>
+                                Ilham Maulana <br>
+                                Khalifatul Fajriatil Fatah <br>
+                                Sandi Riandi <br>
+                                Messa Merliyanti Putri <br>
+                                Santi</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Food Suply -->
+                    <div class="department-card">
+                        <div class="card-img">
+                            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Central Language Improvement">
+                        </div>
+                        <div class="card-content">
+                            <h3>Food Suply</h3>
+                            <p class="description">Developing Arabic and English language skills of organization members through training programs and practical activities.</p>
+                            <div class="contact-info">
+                                <p>Bintang Arya Rizki <br>
+                                Dede Amran <br>
+                                Pajri Muthoriq <br>
+                                Mar Atussalimah <br>
+                                Naila Nurfazah</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Halaman Tentang -->
+        <section id="about" class="page">
+            <div class="about-container">
+                <div class="section-title">
+                    <h2>Provident</h2>
+                    <div class="title-line"></div>
+                </div>
+                
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="/image/provident.webp" alt="About Organization">
+                    </div>
+                </div>
+                
+                <div class="team-values">
+                    <h3>Our Values</h3>
+                    <div class="values-grid">
+                        <div class="value-item">
+                            <div class="value-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <h4>collaboration</h4>
+                            <p>We believe that teamwork is the key to an organization’s success.</p>
+                        </div>
+                        <div class="value-item">
+                            <div class="value-icon">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <h4>Inovation</h4>
+                            <p>We continuously seek new ways to improve the organization’s effectiveness.</p>
+                        </div>
+                        <div class="value-item">
+                            <div class="value-icon">
+                                <i class="fas fa-handshake"></i>
+                            </div>
+                            <h4>Integrity</h4>
+                            <p>We uphold honesty and transparency in every action.</p>
+                        </div>
+                        <div class="value-item">
+                            <div class="value-icon">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <h4>Care</h4>
+                            <p>We care about the well-being of every member of the organization.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-logo">
+                <h3><i class="fas fa-sitemap"></i> Prov Organization</h3>
+                <p>A comprehensive organization with various departments that support one another.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Provident Media. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Modal untuk gambar besar -->
+    <div id="imageModal" class="modal">
+        <span class="modal-close">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div id="modalCaption"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

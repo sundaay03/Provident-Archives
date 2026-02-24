@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Provident Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌱</text></svg>">
+</head>
+<body>
+    <!-- Header dengan tombol kembali bulat -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="#" class="back-btn" id="backBtn">
+                    <i class="fas fa-arrow-left"></i>
+                </a>
+                <div class="logo">
+                    <h1><span class="logo-icon"></span>Prov<span class="green-text"> Identity</span></h1>
+                </div>
+                <nav class="nav-menu">
+                    <ul>
+                        <li><a href="#home" class="nav-link active">Beranda</a></li>
+                        <li><a href="#about" class="nav-link">Tentang</a></li>
+                        <li><a href="#members" class="nav-link">Anggota</a></li>
+                        <li><a href="#contact" class="nav-link">Kontak</a></li>
+                    </ul>
+                </nav>
+                <button class="menu-toggle" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text animate-fade-in">
+                    <h2>Selamat Datang di <span class="green-text">Profil Angkatan Kami</span></h2>
+                    <p>Kami adalah angkatan 2024 program studi Teknologi Informasi. Website ini dibuat untuk mengenalkan profil, anggota, dan kegiatan kami selama perkuliahan.</p>
+                    <div class="hero-buttons">
+                        <a href="#about" class="btn btn-primary">Tentang Kami</a>
+                        <a href="#members" class="btn btn-outline">Lihat Anggota</a>
+                    </div>
+                </div>
+                <div class="hero-image animate-slide-up">
+                    <div class="image-placeholder">
+                        <i><img src="/image/logo.png" alt=""></i>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </section>
+
+    <!-- Tentang Kami Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Tentang <span class="green-text">Angkatan Kami</span></h2>
+                <p class="section-subtitle">Kenali lebih dekat komunitas kami</p>
+            </div>
+            <div class="about-content">
+                <div class="about-image animate-fade-in">
+                    <div class="about-img-placeholder">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                </div>
+                <div class="about-text animate-slide-left">
+                    <h3>Visi & Misi Angkatan 2024</h3>
+                    <p>Kami adalah angkatan dengan semangat kolaborasi dan inovasi di bidang Teknologi Informasi. Dengan 120 mahasiswa aktif, kami berkomitmen untuk menjadi generasi yang unggul dan memberikan kontribusi positif bagi perkembangan teknologi.</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <h4 class="stat-number" data-count="120">0</h4>
+                            <p>Mahasiswa</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4 class="stat-number" data-count="8">0</h4>
+                            <p>Kelompok</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4 class="stat-number" data-count="15">0</h4>
+                            <p>Proyek</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4 class="stat-number" data-count="4">0</h4>
+                            <p>Dosen Wali</p>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn btn-primary">Hubungi Kami</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Anggota Section -->
+    <section class="section members" id="members">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Anggota <span class="green-text">Terpilih</span></h2>
+                <p class="section-subtitle">Beberapa perwakilan angkatan kami</p>
+            </div>
+            <div class="members-grid">
+                <!-- Anggota akan di-generate oleh JavaScript -->
+            </div>
+            <div class="text-center">
+                <button class="btn btn-outline" id="loadMore">Tampilkan Semua</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeri Section -->
+    <section class="section gallery" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Galeri <span class="green-text">Kegiatan</span></h2>
+                <p class="section-subtitle">Momen-momen berharga kami</p>
+            </div>
+            <div class="gallery-grid">
+                <!-- Galeri akan di-generate oleh JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontak Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Hubungi <span class="green-text">Kami</span></h2>
+                <p class="section-subtitle">Tetap terhubung dengan angkatan kami</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info animate-fade-in">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>angkatan2024@univ.ac.id</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Telepon</h4>
+                            <p>+62 812 3456 7890</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Alamat</h4>
+                            <p>Gedung Fakultas Teknologi Informasi, Kampus Universitas</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Instagram</h4>
+                            <p>@angkatan2024_ti</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form animate-slide-up">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Nama Lengkap" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Pesan Anda" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3><span class="logo-icon">🌱</span> Angkatan<span class="green-text">'24</span></h3>
+                    <p>Kelas Unggulan - Teknologi Informasi</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Tautan Cepat</h4>
+                    <ul>
+                        <li><a href="#home">Beranda</a></li>
+                        <li><a href="#about">Tentang Kami</a></li>
+                        <li><a href="#members">Anggota</a></li>
+                        <li><a href="#gallery">Galeri</a></li>
+                        <li><a href="#contact">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Ikuti Kami</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Profil Angkatan 2024 - Teknologi Informasi. Hak Cipta Dilindungi.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to top button -->
+    <button class="scroll-top" id="scrollTop">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
